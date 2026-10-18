@@ -260,7 +260,7 @@ void rotate(std::vector<std::vector<Site>>& polar_grid, std::vector<std::vector<
     galaxy_string.push_back(' ');
     galaxy_string.append(std::to_string(polar_grid[0][0].theta));
     galaxy_string.push_back(' ');
-    galaxy_string.append(std::to_string(polar_grid[0][0].new_stellar_mass));
+    galaxy_string.append(std::to_string(polar_grid[0][0].high_mass_stars));
     galaxy_string.push_back(' ');
     galaxy_string.append(std::to_string(polar_grid[0][0].low_mass_stars));
     galaxy_string.push_back('\n');
